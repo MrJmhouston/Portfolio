@@ -832,8 +832,179 @@ input[type="submit"]:hover {
 }
 /*end media queries (600px)*/
 
+/* start media queries (480px) */
+@media screen and (max-width: 480px) {
+    body {
+        background: url("images/photos/pawel-czerwinski-fBTd3Xng5j0-unsplash.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1 {
+        font-size: 6rem;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .landing-text h6 {
+        font-size: 2.1rem;
+    }
+
+    #top-up {
+        max-width: 100vh;
+        align-content: center;
+    }
+
+    #top-uph6 {
+        width: 100vh;
+        align-content: center;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .menu-toggler {
+        top: 3rem;
+        right: 0rem;
+        width: 4rem;
+        margin: 0rem 8rem 0rem 0rem;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+    background: linear-gradient(to top, #ec81d5, #137bac);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .top-nav.open {
+        top: 0rem;
+        border-radius: initial;
+        width: 30vh;
+        height: 80vh;
+        margin-left: ;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+
+    .open .bar.start {
+    transform: rotate(-450deg) translateX(.5rem);
+    }
+
+
+    .open .bar.half.end {
+    transform: rotate(-450deg) translateX(-.5rem);
+    }
+
+    /* .nav-link {
+        font-size: .5rem;
+        flex-direction: column;
+    } */
+
+    .nav-list {
+        display: block;
+        flex-direction: column;
+        padding: 4rem 3rem 0rem 0rem;
+    }
+
+    .nav-list a {
+        word-spacing: 0;
+        margin: 0;
+        font-size: 1rem;
+        flex-direction: column;
+    }
+
+    .social-media .nav-list {
+        display: flex;
+    }
+
+    .has-margin-right {
+        margin-right: 0;
+    }
+
+    /* .about {
+        width: 60vh;
+    } */
+
+    .skillss {
+        width: 85vh;
+    }
+
+    .container{
+        width: 85vh;
+    }
+
+    /* .portfolio {
+        width: 85vh;
+    } */
+
+    /* .experience {
+        width: 85vh;
+    } */
+
+    /* .contact {
+        width: 85vh;
+    } */
+
+    /* .copyright {
+        width: 85vh;
+    }
+
+    /* .about .container {
+        flex-direction: column;
+        margin: 0rem 0rem 0rem 12rem;
+    } */
+
+    /* .profile-img {
+        margin: 0 0 0rem 0;
+    } */
+
+    /* .portfolio-item {
+        flex-direction: column;
+    } */
+
+    .portfolio-img {
+        order: 1;
+    }
+
+    #portfolio-img {
+        display: flex;
+        margin: 0rem 0rem 0rem 5.5rem;
+    }
+
+    .portfolio-description {
+        width: 70vh;
+        margin: 0;
+        order: 2;
+    }
+
+    .portfolio-description h6 h1 {
+        opacity: 50;
+    }
+
+    .timeline {
+        margin: 0% 0% 0% 0%;
+    }
+
+    .timeline p {
+        /* width: 30vh; */
+        font-size: 100%;
+    }
+
+    .timeline .date::before {
+        font-size: 110%;
+        margin: 0% 0% 0% 15%;
+    }
+
+    form {
+        width: 35rem;
+    }
+
+    .up {
+        right: 2rem;
+    }
+}
+/* end media queries (480px) */
+
 /* start media queries (360px) */
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
     #top-up {
         width: 45vh;
     }
@@ -971,7 +1142,6 @@ input[type="submit"]:hover {
     .up {
         right: 2rem;
     }
-
-    /* end media queries (360px) */
-}
+} */
+/* end media queries (360px) */
 /*end media queries*/
