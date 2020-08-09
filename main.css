@@ -161,7 +161,7 @@ li {
 }
 
 .menu-toggler {
-    position: absolute;
+    position: fixed;
     top: 5rem;
     right: 5rem;
     width: 5rem;
@@ -187,6 +187,7 @@ li {
 
 .menu-toggler.open {
     transform: rotate(-45deg);
+    position: fixed;
 }
 
 .bar {
@@ -482,7 +483,7 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: .7;
 }
 
 .timeline .date {
@@ -651,7 +652,7 @@ input[type="submit"]:hover {
 
 /* end media queries (1060px) */
 
-/*start media queries (768px)*/
+/*start media queries (850px)*/
 @media screen and (max-width: 850px) {
     body {
         background: url("images/photos/pawel-czerwinski-fBTd3Xng5j0-unsplash.jpg") no-repeat center fixed;
@@ -729,7 +730,7 @@ input[type="submit"]:hover {
         left: -5.9rem;
     }
 }
-/*end media queries (768px)*/
+/*end media queries (850px)*/
 
 /*start media queries (600px)*/
 @media screen and (max-width: 600px) {
@@ -803,9 +804,9 @@ input[type="submit"]:hover {
         flex-direction: column;
     }
 
-    .portfolio-img {
-        margin: 0 0 2rem 0;
-        order: 1;
+    #portfolio-img {
+        display: flex;
+        margin: 0% 0% 10% 18%;
     }
 
     .portfolio-description {
