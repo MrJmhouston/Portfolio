@@ -976,8 +976,8 @@ input[type="submit"]:hover {
 }
 /* end media queries (480px) */
 
-/* start media queries (360px) */
-@media screen and (max-width: 360px) {
+/* start media queries (375px) */
+@media screen and (max-width: 375px) {
     body {
         background: url("images/photos/pawel-czerwinski-fBTd3Xng5j0-unsplash.jpg") no-repeat center fixed;
         background-size: cover;
@@ -1120,5 +1120,5 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 }
-/* end media queries (360px) */
+/* end media queries (375px) */
 /*end media queries*/
