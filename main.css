@@ -977,43 +977,35 @@ input[type="submit"]:hover {
 /* end media queries (480px) */
 
 /* start media queries (360px) */
-/* @media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
+    body {
+        background: url("images/photos/pawel-czerwinski-fBTd3Xng5j0-unsplash.jpg") no-repeat center fixed;
+        background-size: cover;
+        align-content: center;
+    }
+
+    .landing-text h1 {
+        font-size: 700%;
+        /* margin: 0% 0% 0% 13%; */
+    }
+
+    .landing-text h6 {
+        font-size: 250%;
+        /* margin: 0% 0% 0% 15%; */
+    }
+
     #top-up {
-        width: 45vh;
+        width: 100%;
     }
 
     #top-uph6 {
-        width: 50vh;
-    }
-
-    .about {
-        width: 60vh;
-    }
-
-    .skillss {
-        width: 60vh;
-    }
-
-    .portfolio {
-        width: 60vh;
-    }
-
-    .experience {
-        width: 60vh;
-    }
-
-    .contact {
-        width: 60vh;
-    }
-    .copyright {
-        width: 60vh;
+        width: 100%;
     }
 
     .menu-toggler {
-        top: 2rem;
-        right: -15rem;
-        width: 3.5rem;
-        height: 2rem;
+        top: 5%;
+        left: 115%;
+        width: 17%;
     }
 
     .nav-link:hover,
@@ -1025,62 +1017,64 @@ input[type="submit"]:hover {
     }
 
     .top-nav.open {
-        top: 0;
+        top: 0%;
         border-radius: initial;
-        width: 30%;
-        height: 40%;
-        margin-left: 48%;
+        width: 100%;
+        height: 105%;
+        margin-left: 70%;
         border-bottom-right-radius: 0%;
-        border-bottom-left-radius: 70%;
+        border-bottom-left-radius: 40%;
     }
 
     .open .bar.start {
-    transform: rotate(-450deg) translateX(.5rem);
+    transform: rotate(-450deg) translateX(50%);
     }
 
 
     .open .bar.half.end {
-    transform: rotate(-450deg) translateX(-.5rem);
+    transform: rotate(-450deg) translateX(-55%);
     }
 
-
     .nav-list {
-        flex-direction: column;
-        padding: 0rem 1rem 0rem 0rem;
+        display: block;
     }
 
     .nav-list a {
-        font-size: 1.5rem;
+        font-size: 130%;
         flex-direction: column;
+        margin-left: 0%;
     }
 
-
-    .landing-text h1 {
-        font-size: 6rem;
-        margin: 0rem 0rem 0rem 6rem;
+    .social-media .nav-list {
+        display: flex;
     }
 
-    .landing-text h6 {
-        font-size: 2.3rem;
-        margin: 0rem 0rem 0rem 3.5rem;
+    .has-margin-right {
+        margin-right: 0;
     }
 
-    .nav-link {
-        font-size: 1.5rem;
-        flex-direction: column;
+    .about {
+        width: 150%;
     }
 
-    .about .container {
-        flex-direction: column;
-        margin: 0rem 0rem 0rem 12rem;
+    .skillss {
+        width: 150%;
     }
 
-    .profile-img {
-        margin: 0 0 0rem 0;
+    .portfolio {
+        width: 150%;
     }
 
-    .portfolio-item {
-        flex-direction: column;
+    .experience {
+        width: 150%;
+    }
+
+    .contact {
+        width: 150%;
+    }
+
+    .copyright {
+        width: 150%;
     }
 
     .portfolio-img {
@@ -1088,11 +1082,11 @@ input[type="submit"]:hover {
     }
 
     #portfolio-img {
-        
+        display: flex;
+        margin: 0rem 0rem 0rem 13%;
     }
 
     .portfolio-description {
-        margin: 0;
         order: 2;
     }
 
@@ -1100,21 +1094,31 @@ input[type="submit"]:hover {
         opacity: 50;
     }
 
+    .timeline {
+        margin: 0% 0% 0% 0%;
+    }
+
     .timeline p {
-        font-size: 1.6rem;
+        width: 130%;
+        font-size: 120%;
     }
 
     .timeline .date::before {
-        font-size: 1.4rem;
+        font-size: 130%;
+        margin: 0% 0% 0% 65%;
+    }
+
+    .timeline h1 {
+        opacity: 85%;
     }
 
     form {
-        width: 100%;
+        width: 35rem;
     }
 
     .up {
         right: 2rem;
     }
-} */
+}
 /* end media queries (360px) */
 /*end media queries*/
